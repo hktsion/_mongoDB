@@ -14,11 +14,7 @@ function emailGenerator(nombres, sucursales){
 	var dot = "";
 	for(var i = 0; i < 10; i++){
 		dot = (i%3 == 0) ? ".es" : ".com";
-		sucursales[i] = sucursales[i].toLowerCase();
-		sucursales[i] = sucursales[i].replace(" ", "");
-		nombres[i] = nombres[i].replace(" ", "");
-		nombres[i] = nombres[i].toLowerCase();
-		cliEmails[i] = nombres[i] + "@clientes." + sucursales[i] + dot;
+		cliEmails[i] = (nombres[i].replace(" ", "")).toLowerCase() + "@clientes." + (sucursales[i].replace(" ", "")).toLowerCase() + dot;
 	}
 	return cliEmails;
 }
