@@ -18,3 +18,4 @@ function emailGenerator(nombres, sucursales){
 	}
 	return cliEmails;
 }
+

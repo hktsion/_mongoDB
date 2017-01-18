@@ -21,7 +21,8 @@ var sucDirectores = [
 		"Maria Dolores Dancausa Trevino",
 		"Gonzalo Gortázar Rotaeche", 
 		"Apollo Global Management", 
-		"Braulio Medel Cámara"
+		"Braulio Medel Cámara",
+		"Jose Manuel Esteban Piedra"
 		];
 
 var sucPoblaciones = [
